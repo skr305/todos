@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+/* for the standard loading animation */
+.loader-small .loader-inner {
+  transform: scale(0.5, 0.5);
+  min-height: 2em;
+  max-width: 2em;
+}
